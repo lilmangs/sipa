@@ -1,0 +1,22 @@
+/* SHOP PAGE ONLY - Add to Cart Button */
+.add-to-cart-btn {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: #e63946;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-to-cart-btn:hover {
+  background-color: #cc2e3d;
+}
+.product-link {
+  text-decoration: none;
+  color: inherit;
+}
+

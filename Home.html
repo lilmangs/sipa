@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>KICK</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="shop.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+   <div class="logo logo-overlay">
+  <img src="image/LOGO.png" alt="KICK Logo" />
+  <span>KICK</span>
+</div>
+    <nav class="nav-links">
+      <a href="#">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="about.html">About</a>
+    </nav>
+    <div class="nav-actions">
+    <button class="btn cart"><a href="cart.html">Cart</a></button>
+     <button class="btn"><a href="index.html">Logout</a></button>
+
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>A KICK FOR EVERY STYLE</h1>
+      <p>Fresh kicks. Classic comfort. Step into your next pair.</p>
+      <button class="shop-now-btn"><a href="shop.html">Shop Now!</a></button>
+    </div>
+  </section>
+
+  <!-- Featured Products -->
+    <section class="featured" id="featured">
+    <h2>Featured Products </h2>
+    <div class="product-grid">
+      <div class="product" data-id="1" data-name="Red Sneakers" data-price="5000" data-image="image/90AIR.jpg">
+  <img src="image/90AIR.jpg" alt="Airmax">
+  <h3>Airmax</h3>
+  <p> ₱5,000.00</p>
+  <button class="add-to-cart-btn">Add to Cart</button>
+</div>
+      <div class="product" data-id="1" data-name="Adidas Ultraboost 22" data-price="4200"data-image="image/AdidasUltraboost 22.jpg">
+        <img src="image/AdidasUltraboost 22.jpg" alt="Adidas Ultraboost 22" />
+        <h3>Adidas - Ultraboost</h3>
+        <p> ₱4,200.00</p>
+         <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+      <div class="product" data-id="1" data-name="Chuck Taylor All Star" data-price="3500"data-image="image/ChuckTaylorAll Star.jpg">
+        <img src="image/ChuckTaylorAll Star.jpg" alt="Chuck Taylor All Star" />
+        <h3>Converse -Taylor</h3>
+        <p> ₱3,500.00</p>
+         <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+      <div class="product" data-id="1" data-name="Puma Suede Classic" data-price="4000"data-image="image/PumaSuedClassic.jpg">
+        <img src="image/PumaSuedClassic.jpg" alt="Puma Suede Classic" />
+        <h3>Puma - Suede Classic</h3>
+        <p> ₱4,000.00</p>
+         <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+      <div class="product" data-id="1" data-name="New Balance 574 Core" data-price="6795"data-image="image/NewBalance574core.jpg">
+        <img src="image/NewBalance574core.jpg" alt="New Balance 574 Core" />
+        <h3>New Balance 574</h3>
+        <p> ₱6,795.00</p>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+      <!-- Add more products if needed -->
+    </div>
+  </section>
+  
+  <!-- About Section -->
+<section class="about" id="about">
+  <div class="about-container">
+    <h2>About KICK</h2>
+    <p>
+      At KICK, we believe shoes are more than just footwear — they're a statement of your style, energy, and individuality. 
+      We curate the best brands like Nike, Adidas, Converse, Puma, and New Balance to bring you the freshest kicks 
+      that combine performance and personality.
+    </p>
+    <p>
+      Whether you're walking the streets or running the track, our mission is to help you move forward — with confidence, 
+      comfort, and style. Thank you for stepping up with us.
+    </p>
+  </div>
+</section>
+
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-column">
+      <h4>Contact</h4>
+      <a>Email: support@kickshop.com</a>
+      <a>Phone: +63 912 345 6789</a>
+      <a>Location: Balingasag, Philippines</a>
+    </div>
+    <div class="footer-column">
+      <h4>Quick Links</h4>
+     <a href="#">Home</a>
+      <a href="#featured">Shop</a>
+      <a href="#about">About</a>
+    </div>
+    <div class="footer-column">
+      <h4>Get to Know Us</h4>
+      <a href="about.html">About A kick</a>
+      <a href="blog">Blog</a>
+    </div>
+    <div class="footer-column">
+      <h4>Follow Us</h4>
+      <a href="https://www.facebook.com/">Facebook</a>
+      <a href="https://www.instagram.com/">Instagram</a>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 A Kick. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="shop.js"></script>
+  <button onclick="goBack()" class="fixed-back-btn">← Back</button>
+  <script>
+  function goBack() {
+    history.back();
+  }
+</script>
+
+</body>
+</html>
